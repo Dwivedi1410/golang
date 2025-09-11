@@ -12,7 +12,7 @@ func main() {
 	reader := bufio.NewReader(os.Stdin)
 	fmt.Print("Please enter the rating of our pizza :")
 
-	//Note:- golang dosn't have a try catch to catcht the errors
+	//Note:- golang dosn't have a try catch to catch the errors
 	//golang treat errors as a variables like true and false.
 	//golang use comma ok or comma error syntax
 

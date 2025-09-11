@@ -31,7 +31,7 @@ func main() {
 	fmt.Printf("type of this slice is %T", slice3) //type of this slice is []int
 
 	fruitList := []string{"Mango", "Banana", "Peach", "Papaya"}
-	// fruitList = append(fruitList[:3])
+	// fruitList = append(fruitList[:3])  //[Mango Banana Peach]
 	// fmt.Println(fruitList);
 
 	sort.Strings(fruitList)

@@ -13,8 +13,6 @@ func main() {
 	fmt.Printf("Thease are the values of the struct in more detail %+v", Prakash);
 
 	fmt.Printf("Name of the struct is %v and age of the struct is %v", Prakash.Name, Prakash.Age)
-
-
 }
 
 //This is how we define a struct
